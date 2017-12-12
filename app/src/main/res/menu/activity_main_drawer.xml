@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_rekapan"
+            android:icon="@drawable/rekapan"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/report"
+            android:title="Report" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
